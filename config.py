@@ -34,7 +34,7 @@ ADS_MODE = getenv("ADS_MODE", None)
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7749780042))
+OWNER_ID = int(getenv("OWNER_ID", 7538752811))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,19 +44,19 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", '30DxNexGenBotsc65acc') 
+API_KEY = getenv("API_KEY", 'NxGBNexGenBotsa54535') 
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/linkers697/RexRealAlone",
+    "https://github.com/linkers697/LyraRealAlone",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/feelingDirtYy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SexiestGroup")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AuraVisual")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HeavenChatGroup")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
@@ -95,33 +95,33 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/iz8rx5.jpg",
+    "https://files.catbox.moe/c7hmme.jpg",
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/iz8rx5.jpg",
+    "https://files.catbox.moe/c7hmme.jpg",
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/iz8rx5.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/iz8rx5.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/c7hmme.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/c7hmme.jpg"
 TELEGRAM_AUDIO_URL = (
-    "https://files.catbox.moe/iz8rx5.jpg"
+    "https://files.catbox.moe/c7hmme.jpg"
 )
 TELEGRAM_VIDEO_URL = (
-    "https://files.catbox.moe/iz8rx5.jpg"
+    "https://files.catbox.moe/c7hmme.jpg"
 )
-STREAM_IMG_URL = "https://files.catbox.moe/iz8rx5.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/c7hmme.jpg"
 SOUNCLOUD_IMG_URL = (
-    "https://files.catbox.moe/iz8rx5.jpg"
+    "https://files.catbox.moe/c7hmme.jpg"
 )
-YOUTUBE_IMG_URL = "https://files.catbox.moe/iz8rx5.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/c7hmme.jpg"
 SPOTIFY_ARTIST_IMG_URL = (
-    "https://files.catbox.moe/iz8rx5.jpg"
+    "https://files.catbox.moe/c7hmme.jpg"
 )
 SPOTIFY_ALBUM_IMG_URL = (
-    "https://files.catbox.moe/iz8rx5.jpg"
+    "https://files.catbox.moe/c7hmme.jpg"
 )
 SPOTIFY_PLAYLIST_IMG_URL = (
-    "https://files.catbox.moe/iz8rx5.jpg"
+    "https://files.catbox.moe/c7hmme.jpg"
 )
 
 
