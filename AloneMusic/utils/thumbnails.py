@@ -112,7 +112,7 @@ async def get_thumb(videoid: str):
 
         # ✅ Add "Asianbots" branding (sky blue color)
         font_brand = ImageFont.truetype("AloneMusic/assets/font3.ttf", 45)
-        draw_text_with_outline(draw, (1000, 600), "Join - AuraVisual", font_brand, (135, 206, 250))
+        draw_text_with_outline(draw, (1000, 600), "AsianBots", font_brand, (135, 206, 250))
 
         try:
             os.remove(f"cache/thumb{videoid}.png")
